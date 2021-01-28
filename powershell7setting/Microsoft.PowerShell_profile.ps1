@@ -29,8 +29,8 @@ Set-Theme Paradox
 # 设置 Tab 为菜单补全和 Intellisense
 Set-PSReadLineKeyHandler -Key "Tab" -Function MenuComplete
 
-# 设置 Ctrl+d 向光标后删除一个字
-Set-PSReadlineKeyHandler -Key "Ctrl+u" -Function DeleteChar
+# 设置 Ctrl+u 向光标后删除一行
+Set-PSReadlineKeyHandler -Key "Ctrl+u" -Function BackwardDeleteLine
 
 # 设置 Ctrl+d 
 Set-PSReadlineKeyHandler -Key "Ctrl+d" -Function DeleteChar
